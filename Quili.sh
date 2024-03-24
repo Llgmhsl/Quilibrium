@@ -98,7 +98,7 @@ fi
 
 # 增加swap空间
 sudo mkdir /swap
-sudo fallocate -l 24G /swap/swapfile
+sudo fallocate -l 4G /swap/swapfile
 sudo chmod 600 /swap/swapfile
 sudo mkswap /swap/swapfile
 sudo swapon /swap/swapfile
